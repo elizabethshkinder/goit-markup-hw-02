@@ -37,3 +37,83 @@ address {
 img {
   display: block;
 }
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+  background-color: #fff;
+}
+
+/* .header-nav {} */
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  /* line-height: 21px; */
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  color: #4d5ae5;
+}
+
+/* .header-menu {} */
+
+.header-menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* .header-menu-item-link {} */
+
+/* .contacts {} */
+
+/* .contacts-list {} */
+
+.contacts-list-item {
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* .contacts-list-item-link {} */
+
+.hero {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  /* line-height: 60px; */
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-btn {
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+
+.hero-btn-text {
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
