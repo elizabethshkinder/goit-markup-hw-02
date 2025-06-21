@@ -62,7 +62,15 @@ img {
   color: #f4f4fd;
 }
 
-/* .header-menu {} */
+.header-menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  width: 261px;
+  height: 24px;
+}
 
 .header-menu-item {
   font-weight: 500;
@@ -74,9 +82,12 @@ img {
 
 /* .header-menu-item-link {} */
 
-/* .contacts {} */
+/* .contacts {
 
-/* .contacts-list {} */
+} */
+
+/* .contacts-list {
+} */
 
 .contacts-list-item {
   font-weight: 400;
@@ -99,13 +110,18 @@ img {
   font-weight: 700;
   font-size: 56px;
   /* line-height: 60px; */
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .hero-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
   border-radius: 4px;
   width: 169px;
   height: 56px;
