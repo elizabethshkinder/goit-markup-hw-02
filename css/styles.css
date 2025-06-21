@@ -84,6 +84,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* .contacts-list-item-link {} */
 
 .hero {
@@ -91,6 +92,7 @@ img {
   width: 1440px;
   height: 600px;
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -116,4 +118,128 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+
+.advantages {
+  background-color: #fff;
+  width: 1128px;
+  height: 104px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* .advantages-list {} */
+/* .advantages-list-items {} */
+
+.advantages-list-items-title {
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.advantages-list-items-text {
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.our-team {
+  width: 1440px;
+  height: 732px;
+}
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  /* line-height: 40px; */
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* .our-team-list {} */
+
+.team-card {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background-color: #fff;
+}
+
+/* .team-card-photo {} */
+
+.team-card-name {
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-card-position {
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.portfolio {
+  width: 1128px;
+  height: 1000px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  /* line-height: 40px; */
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* .portfolio-list {} */
+
+.portfolio-list-item {
+  width: 360px;
+  height: 420px;
+}
+
+/* .portfolio-visual {} */
+
+.portfolio-list-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-list-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
