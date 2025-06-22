@@ -48,6 +48,13 @@ img {
 /* .header-nav {} */
 
 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  width: 115px;
+  height: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -59,7 +66,7 @@ img {
 }
 
 .logo-accent {
-  color: #f4f4fd;
+  color: #2e2f42;
 }
 
 .header-menu {
@@ -179,6 +186,7 @@ img {
 .our-team {
   width: 1440px;
   height: 732px;
+  background-color: #f4f4fd;
 }
 .our-team-title {
   font-weight: 700;
@@ -187,6 +195,7 @@ img {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 /* .our-team-list {} */
@@ -231,9 +240,10 @@ img {
   font-weight: 700;
   font-size: 36px;
   /* line-height: 40px; */
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 /* .portfolio-list {} */
