@@ -11,50 +11,23 @@ a {
 
 ul {
   list-style-type: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
 }
 
 button {
   cursor: pointer;
   font-family: inherit;
-  padding: 0;
 }
 
 address {
   font-style: normal;
 }
 
-img {
-  display: block;
-}
-
 .header {
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
   background-color: #fff;
 }
 
-/* .header-nav {} */
-
 .logo {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
-  width: 115px;
-  height: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -67,16 +40,6 @@ img {
 
 .logo-accent {
   color: #2e2f42;
-}
-
-.header-menu {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  width: 261px;
-  height: 24px;
 }
 
 .header-menu-item-link {
@@ -93,14 +56,7 @@ img {
   color: #404bbf;
 }
 
-/* .contacts {
-
-} */
-
-/* .contacts-list {
-} */
-
-.contacts-list-item {
+.contacts-list-item-link {
   font-weight: 400;
   font-size: 16px;
   /* line-height: 24px; */
@@ -109,12 +65,13 @@ img {
   color: #434455;
 }
 
-/* .contacts-list-item-link {} */
+.contacts-list-item-link:hover,
+.contacts-list-item-link:focus {
+  color: #404bbf;
+}
 
 .hero {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 
 .hero-title {
@@ -128,15 +85,6 @@ img {
 }
 
 .hero-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
 }
 
@@ -156,11 +104,9 @@ img {
 
 .advantages {
   background-color: #fff;
-  width: 1128px;
-  height: 104px;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -170,14 +116,7 @@ img {
   clip: rect(0 0 0 0);
   white-space: nowrap;
   border: 0;
-}
-
-.advantages-list {
-  width: 1128px;
-  height: 104px;
-}
-
-/* .advantages-list-items {} */
+} */
 
 .advantages-list-items-title {
   font-weight: 500;
@@ -198,8 +137,6 @@ img {
 }
 
 .our-team {
-  width: 1440px;
-  height: 732px;
   background-color: #f4f4fd;
 }
 .our-team-title {
@@ -213,19 +150,9 @@ img {
   color: #2e2f42;
 }
 
-/* .our-team-list {} */
-
 .team-card {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
 }
-
-/* .team-card-photo {} */
 
 .team-card-name {
   font-weight: 500;
@@ -247,11 +174,6 @@ img {
   color: #434455;
 }
 
-.portfolio {
-  width: 1128px;
-  height: 1000px;
-}
-
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -262,15 +184,6 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
 }
-
-/* .portfolio-list {} */
-
-.portfolio-list-item {
-  width: 360px;
-  height: 420px;
-}
-
-/* .portfolio-visual {} */
 
 .portfolio-list-item-title {
   font-weight: 500;
@@ -291,9 +204,11 @@ img {
 }
 
 .page-footer {
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
+}
+
+.logo-accent-footer {
+  color: #f4f4fd;
 }
 
 .footer-text {
