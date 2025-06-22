@@ -172,7 +172,11 @@ img {
   border: 0;
 }
 
-/* .advantages-list {} */
+.advantages-list {
+  width: 1128px;
+  height: 104px;
+}
+
 /* .advantages-list-items {} */
 
 .advantages-list-items-title {
@@ -181,6 +185,7 @@ img {
   /* line-height: 24px; */
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .advantages-list-items-text {
@@ -201,10 +206,11 @@ img {
   font-weight: 700;
   font-size: 36px;
   /* line-height: 40px; */
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 /* .our-team-list {} */
@@ -228,6 +234,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .team-card-position {
@@ -253,6 +260,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 /* .portfolio-list {} */
@@ -270,6 +278,7 @@ img {
   /* line-height: 24px; */
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-list-item-text {
